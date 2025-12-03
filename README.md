@@ -1,29 +1,20 @@
-# 🔮 2D Points Prediction & Hyperparameter Analysis
+# 🔮 Deep Learning 2D Points Prediction & Hyperparameter Analysis
 
-A machine learning project focused on predicting 2D points and analyzing how different **hyperparameters** impact model performance. The repository includes visualizations, comparison diagrams, and accuracy curves to help understand model behavior.
+This repository contains a **deep learning** project that predicts 2D points using a **multi‑layer neural network (MLP)**. The goal is to study how different **hyperparameters** affect training performance, stability, and accuracy.
+
+The project includes several visualizations: predicted vs real points, hyperparameter comparison diagrams, and accuracy evolution plots.
 
 ---
 
 ## 🚀 Project Overview
 
-This project develops a predictive model capable of estimating 2D coordinates from training data. Its main objective is to evaluate how tuning key hyperparameters influences accuracy and performance.
+This project implements a deep learning pipeline to:
 
-You will find:
+* Train a neural network for 2D point prediction
+* Experiment with key hyperparameters
+* Visualize the effect of batch size, learning rate, and number of iterations
+* Compare different model configurations using diagrams and accuracy curves
 
-* A working model for 2D point prediction
-* Hyperparameter testing scripts
-* Visual results showing prediction quality
-* Comparison diagrams
-* Accuracy evolution curves
-
----
-
-## 🎯 Goals
-
-* Build and train a predictive model
-* Experiment with multiple hyperparameters
-* Visualize the impact of parameter changes
-* Compare results using diagrams and accuracy metrics
 
 ---
 
