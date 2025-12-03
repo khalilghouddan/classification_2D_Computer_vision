@@ -33,95 +33,23 @@ Include your generated images here:
 
 1. **Predicted Points vs Real Points**
 
-   ![Predictions vs Real](img/placeholder1.png)
+   ![Predictions vs Real](IMGS/Picture1.png)
 
 2. **Hyperparameter Comparison (Batch Size, Recognition Rate, Iterations)**
 
-   ![Hyperparameter Diagram](img/placeholder2.png)
+   ![Hyperparameter Diagram](IMGS/Picture2.png)
 
 3. **Accuracy Curve Over Training Epochs**
 
-   ![Accuracy Curve](img/placeholder3.png)
+   ![Accuracy Curve](IMGS/Picture3.png)
 
----
 
-## ⚙️ Methodology
-
-### 1️⃣ Data Preparation
-
-* Normalization of coordinates
-* Train/Test split
-
-### 2️⃣ Model Architecture
-
-* Dense Neural Network (MLP) or CNN depending on dataset
-* Loss Function: MSE or Cross Entropy
-* Optimizer: Adam
-
-### 3️⃣ Training Process
-
-Hyperparameters tested:
-
-* **Batch Size**: 8, 16, 32, 64
-* **Epochs**: 20 → 200
-* **Learning Rate**: 1e-2, 1e-3, 1e-4
-
-### 4️⃣ Evaluation & Visualization
-
-* Performance comparison diagrams
-* Accuracy curves
-* Predicted vs Real point plots
-
----
-
-## 📊 Key Results (example)
-
-* Smaller batch sizes often produce more stable training
-* High learning rates lead to poor accuracy
-* More epochs improve accuracy until reaching a plateau
-
-(Replace with your real results)
-
----
-
-## 🛠 Installation
-
-```bash
-git clone <your-repository-url>
-cd prediction-2d
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Running the Project
-
-```bash
-python train.py
-python evaluate.py
-python plot_results.py
-```
-
-All generated graphs are saved in:
-
-```
-outputs/plots/
-```
-
----
-
-## 🏁 Conclusion
-
-This project offers a practical exploration of how hyperparameters affect the performance of a 2D prediction model. Diagrams and accuracy curves help clearly visualize the impact of each parameter.
 
 ---
 
 ## 👤 Author
 
-**Khalil Ghouddan**
+**GHOUDDAN Khalil**
 
 ---
 
-## 📜 License
-
-Choose any license you want (MIT recommended).
